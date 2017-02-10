@@ -44,3 +44,6 @@ For password only logins, no additional fields are required.
 [1]: http://www.passwordstore.org/
 [2]: https://developer.mozilla.org/en-US/docs/Mozilla/Tech/XPCOM/Reference/Interface/nsILoginManagerStorage
 [3]: https://addons.mozilla.org/en-US/firefox/addon/password-exporter/
+
+Originally developed by [gekmihesg](https://github.com/gekmihesg)
+Modified by [itanf](https://github.com/itanf).

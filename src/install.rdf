@@ -4,26 +4,19 @@
 	xmlns:em="http://www.mozilla.org/2004/em-rdf#">
 
 	<Description about="urn:mozilla:install-manifest">
-		<em:id>passmanager@gekmihesg.de</em:id>
-		<em:name>pass-manager</em:name>
+		<em:id>passmanager-itanf@itanf</em:id>
+		<em:name>pass-manager-itanf</em:name>
 		<em:description>Replace integrated password manager by zx2c4's pass</em:description>
-		<em:version>0.6.0</em:version>
+		<em:version>0.6.9</em:version>
 		<em:creator>Markus Weippert</em:creator>
+		<em:contributor>Igor Tanfilev</em:contributor>
 		<em:type>2</em:type>
 		<!-- Mozilla Firefox -->
 		<em:targetApplication>
 			<Description>
 				<em:id>{ec8030f7-c20a-464f-9b0e-13a3a9e97384}</em:id>
-				<em:minVersion>25.*</em:minVersion>
-				<em:maxVersion>50.*</em:maxVersion>
-			</Description>
-		</em:targetApplication>
-		<!-- Mozilla Thunderbird -->
-		<em:targetApplication>
-			<Description>
-				<em:id>{3550f703-e582-4d05-9a08-453d09bdfdc6}</em:id>
-				<em:minVersion>25.*</em:minVersion>
-				<em:maxVersion>45.*</em:maxVersion>
+				<em:minVersion>50.*</em:minVersion>
+				<em:maxVersion>*</em:maxVersion>
 			</Description>
 		</em:targetApplication>
 	</Description>

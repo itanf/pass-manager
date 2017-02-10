@@ -3,7 +3,7 @@ pref("extensions.passmanager.pass", "/usr/bin/pass");
 pref("extensions.passmanager.realm.append_product", true);
 pref("extensions.passmanager.cache", 300);
 pref("extensions.passmanager.fuzzy", false);
-pref("extensions.passmanager.save_as_username", false);
+pref("extensions.passmanager.save_as_username", true);
 pref("extensions.passmanager.strip_hostnames", "");
 pref("extensions.passmanager.map.username", "login,user,username");
 pref("extensions.passmanager.map.hostname", "url,hostname");
